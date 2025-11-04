@@ -11,7 +11,7 @@ if initial_count.isdigit() and final_count.isdigit and time.isdigit:
     Growth_rate = (math.log(y) - math.log(x)) / z
     print(Growth_rate)
 else:
-    print("ERROR! Go back and check again!")
+    print("ERROR! Go back and check again!!")
 
 
 
