@@ -1,1 +1,9 @@
-Copy and paste output of ex_0_beginner_runfile.py below:
+Namespaces are one honking great idea -- let's do more of those!
+
+my name is Hoa
+
+I am a student of CARe Master
+
+Process finished with exit code 0Copy and paste output of ex_0_beginner_runfile.py below:
+
+
