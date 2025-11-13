@@ -1,1 +1,20 @@
 Copy and paste output of ex_1_beginner_runfile.py below:
+microbial_count = [100, 200, 150, 300, 50]
+average_microbial_count = sum(microbial_count)/len(microbial_count)
+print(f"Average of microbial count is : {average_microbial_count}")
+
+maximum_microbial_count = max(microbial_count)
+print(f"Maximum of microbial count is : {maximum_microbial_count}")
+
+minimum_microbial_count = min(microbial_count)
+print(f"Minimum of microbial count is : {minimum_microbial_count}")
+
+day1 = microbial_count[0]
+day2 = microbial_count[1]
+day3 = microbial_count[2]
+day4 = microbial_count[3]
+day5 = microbial_count[4]
+
+print(f"At day 1, we have this number of microbial count : {day1}")
+
+if 
