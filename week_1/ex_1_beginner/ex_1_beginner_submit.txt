@@ -1,1 +1,7 @@
 Copy and paste output of ex_1_beginner_runfile.py below:
+Average population is:  160.0
+Minimum population is:  50
+Maximum population is:  300
+Microbial population was greater than 200 on the following days:  [4]
+
+Process finished with exit code 0
