@@ -1,1 +1,14 @@
 Copy and paste output of ex_1_beginner_runfile.py below:
+C:\Users\dutoi\PycharmProjects\CARe_Python_Class_2025\.venv\Scripts\python.exe C:\Users\dutoi\PycharmProjects\CARe_Python_Class_2025\week_1\ex_1_beginner\ex_1_beginner_runfile.py
+Average population count: 160.0
+Maximum population count: 300
+Minimum population count: 50
+Day(s) when the population exceeds 200:
+Day 4
+
+Process finished with exit code 0
+# Results of calculations:
+#The average population count is calculated as the sum of the counts divided by 5, which is 160.
+#The maximum population count is the count with the highest value, which is 300.
+#The minimum population count is the count with the lowest value, which is 50.
+#The script reports the day(s) that had a population count that exceeded 200, which is day 4.
