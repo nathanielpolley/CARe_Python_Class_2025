@@ -1,1 +1,7 @@
 Copy and paste output of ex_1_beginner_runfile.py below:
+
+Average microbial count:  160.0
+Maximum microbial count:  300
+Maximum microbial count:  50
+Population exceeds 200 on the following days:
+Day  4
