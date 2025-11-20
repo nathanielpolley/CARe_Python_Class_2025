@@ -1,5 +1,5 @@
 import this
 
-print("\n"+"TYPE YOUR RESPONSE TO PROMPT 1 HERE")
+print("\n"+"I work at Restore;ENVT with digital pathology. I want to maximize my efficiency with handling spreadsheets for histology samples.")
 
-print("\n"+"TYPE YOUR RESPONSE TO PROMPT 2 HERE")
+print("\n"+"Classroom in the military police school")
