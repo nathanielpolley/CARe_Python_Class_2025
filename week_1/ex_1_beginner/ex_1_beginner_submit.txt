@@ -1,1 +1,25 @@
-Copy and paste output of ex_1_beginner_runfile.py below:
+count = input("enter microbial count: ")
+parts = count.split()
+numbers = []
+for x in parts:
+    numbers.append(int(x))
+total = 0
+for i in numbers:
+    total += i
+average = total / len(numbers)
+maximum = max(numbers)
+minimum = min(numbers)
+print(f"highest cell count is : {maximum}")
+print(f"lowest cell count is : {minimum}")
+print(f"average cell count is : {average}")
+exceed = []
+day = []
+for time, index in enumerate(numbers):
+    if index >= 200:
+        exceed.append(index)
+        day.append(time)
+if len(exceed) > 0:
+    print(f"the number of cell exceed 200 : {exceed}")
+    print(f"the day that exceed 200 cell: {day}")
+else:
+    print("No day exceed 200 cell")
