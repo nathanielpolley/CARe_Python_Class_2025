@@ -1,1 +1,68 @@
-#YOUR CODE FOR EX_1 INTERMEDIATE HERE
+# ------------------------------------------------------------
+# File: microbial_diversity_analysis.py
+# Purpose: Analyze microbial diversity sample counts using
+#          dictionary iteration, list comprehensions and loops.
+# ------------------------------------------------------------
+
+# 1) Define the dictionary of species -> sample counts
+species_counts = {"Bacteria": 20,
+                  "Archaea": 15,
+                  "Fungi": 10}
+
+# 2) Calculate total number of samples across all species
+total_samples = 0
+for count in species_counts.values():
+    total_samples += count
+
+# Print the total (informational)
+print("Initial species counts:", species_counts)
+print("Total samples (initial):", total_samples)
+
+# 3) Create a list of species with counts greater than 15 using a list comprehension
+species_gt_15 = [species for species, count in species_counts.items() if count > 15]
+print("Species with > 15 samples:", species_gt_15)
+
+# 4) Define a function to add a new species or increment an existing species' count
+def add_or_increment(species_dict, new_species):
+    """If new_species is not present in species_dict, add it with count = 1.
+If present, increment its count by 1.
+Returns the updated count for that species."""
+    if new_species in species_dict:
+        species_dict[new_species] += 1
+    else:
+        species_dict[new_species] = 1
+    return species_dict[new_species]
+
+# 5) Interactive loop to prompt user for new species names until they choose to stop
+#    Acceptable stop commands: 'stop', 'quit', 'exit' (case-insensitive)
+stop_commands = {'stop', 'quit', 'exit'}
+print("\nEnter new species names to add or increment their counts.")
+print("Type 'stop', 'quit' or 'exit' to finish.\n")
+
+while True:
+    try:
+        user_input = input("New species name (or 'stop' to finish): ").strip()
+    except (KeyboardInterrupt, EOFError):
+        # graceful exit on Ctrl-C / Ctrl-D
+        print('\nInput interrupted — finishing.')
+        break
+
+    if not user_input:
+        # ignore empty input and continue prompting
+        print("(empty input) — please type a species name or 'stop'.")
+        continue
+
+    if user_input.lower() in stop_commands:
+        print("Stopping input loop.")
+        break
+
+    new_count = add_or_increment(species_counts, user_input)
+    print(f"Updated '{user_input}': {new_count} sample(s)")
+
+# 6) After the interactive session, recompute and print totals and derived lists
+final_total = sum(species_counts.values())
+species_gt_15_final = [s for s, c in species_counts.items() if c > 15]
+
+print("\nFinal species counts:", species_counts)
+print("Total samples (final):", final_total)
+print("Species with > 15 samples (final):", species_gt_15_final)
