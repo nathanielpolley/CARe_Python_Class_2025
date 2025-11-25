@@ -1,1 +1,15 @@
 Copy and paste output of ex_1_intermediate_runfile.py below:
+Total number of samples collected across all species:  45
+Species with more than 15 samples:  ['Bacteria']
+Do you want to add another species? yes
+Enter species name: Bacteria
+Do you want to add another species? yes
+Enter species name: Algae
+Do you want to add another species? No
+Species and sample counts:
+Bacteria 21
+Archaea 15
+Fungi 10
+Algae 1
+
+Process finished with exit code 0

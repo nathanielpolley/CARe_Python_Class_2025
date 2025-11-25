@@ -1,1 +1,29 @@
 Copy and paste output of ex_0_beginner_runfile.py below:
+"C:\Users\Rhett Visintin\AppData\Local\Programs\Python\Python37\python.exe" "C:\Users\Rhett Visintin\PycharmProjects\CARe_Python_Class_2025\week_0\ex_0_beginner\ex_0_beginner_runfile.py"
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+
+My name is Rhett Visintin, I am from the USA (born and raised in New York state, moved to South Carolina in 2014), and at 30 I am the oldest student in this course. My goal for learning a programming language is to be better able to understand and incorporate modelling and bioinformatics concepts in my work.
+
+I am just old enough to have been alive before cell phones became ubiquitous, so the last time I was truly without access to a computer was likely on some kind of excursion into nature when I was a child, though I can't recall with any real precision when that was.
+
+Process finished with exit code 0
